@@ -11,7 +11,7 @@ long long exponentiate_modularly(int base, int index, int modulus)
     if (index & 1) power = (power * base) % modulus;
     
     power = (power * power) % modulus;
-        
+    
     return power;
 }
 
